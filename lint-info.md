@@ -2,6 +2,10 @@
 > lesson-template@0.0.0 lint
 > oxlint -W style
 
+::warning file=src/sum.jsx,line=1,endLine=3,col=8,endColumn=2,title=eslint(func-style)::src/sum.jsx:1:8: Expected a function expression.
+::warning file=src/sum.jsx,line=1,endLine=1,col=21,endColumn=22,title=eslint(id-length)::src/sum.jsx:1:21: Identifier name is too short (< 2).
+::warning file=src/sum.jsx,line=1,endLine=1,col=23,endColumn=24,title=eslint(id-length)::src/sum.jsx:1:23: Identifier name is too short (< 2).
+::warning file=src/main.jsx,line=3,endLine=3,col=1,endColumn=21,title=eslint(sort-imports)::src/main.jsx:3:1: Expected 'None' syntax before 'Single' syntax.
 ::warning file=tests/test1.test.js,line=5,endLine=5,col=14,endColumn=15,title=eslint(no-magic-numbers)::tests/test1.test.js:5:14: No magic number: 1
 ::warning file=tests/test1.test.js,line=5,endLine=5,col=17,endColumn=18,title=eslint(no-magic-numbers)::tests/test1.test.js:5:17: No magic number: 2
 ::warning file=tests/test1.test.js,line=5,endLine=5,col=26,endColumn=27,title=eslint(no-magic-numbers)::tests/test1.test.js:5:26: No magic number: 3
@@ -13,11 +17,7 @@
 ::warning file=src/App.jsx,line=11,endLine=11,col=7,endColumn=8,title=eslint(no-magic-numbers)::src/App.jsx:11:7: No magic number: 1
 ::warning file=src/App.jsx,line=11,endLine=11,col=9,endColumn=10,title=eslint(no-magic-numbers)::src/App.jsx:11:9: No magic number: 2
 ::warning file=src/App.jsx,line=30,endLine=30,col=54,endColumn=55,title=eslint(no-magic-numbers)::src/App.jsx:30:54: No magic number: 1
-::warning file=src/sum.jsx,line=1,endLine=3,col=8,endColumn=2,title=eslint(func-style)::src/sum.jsx:1:8: Expected a function expression.
-::warning file=src/sum.jsx,line=1,endLine=1,col=21,endColumn=22,title=eslint(id-length)::src/sum.jsx:1:21: Identifier name is too short (< 2).
-::warning file=src/sum.jsx,line=1,endLine=1,col=23,endColumn=24,title=eslint(id-length)::src/sum.jsx:1:23: Identifier name is too short (< 2).
 ::warning file=vite.config.js,line=2,endLine=2,col=1,endColumn=36,title=eslint(sort-imports)::vite.config.js:2:1: Imports should be sorted alphabetically.
-::warning file=src/main.jsx,line=3,endLine=3,col=1,endColumn=21,title=eslint(sort-imports)::src/main.jsx:3:1: Expected 'None' syntax before 'Single' syntax.
 ::warning file=dist/assets/index-CyBHeG3D.js,line=1,endLine=1,col=3008,endColumn=4056,title=eslint(max-statements)::dist/assets/index-CyBHeG3D.js:1:3008: function `de` has too many statements (11). Maximum allowed is 10.
 ::warning file=dist/assets/index-CyBHeG3D.js,line=1,endLine=1,col=751,endColumn=8579,title=eslint(max-statements)::dist/assets/index-CyBHeG3D.js:1:751: function has too many statements (28). Maximum allowed is 10.
 ::warning file=dist/assets/index-CyBHeG3D.js,line=1,endLine=1,col=9897,endColumn=10420,title=eslint(max-statements)::dist/assets/index-CyBHeG3D.js:1:9897: function `S` has too many statements (27). Maximum allowed is 10.
@@ -15297,4 +15297,4 @@
 ::warning file=dist/assets/index-CyBHeG3D.js,line=9,endLine=9,col=54050,endColumn=54051,title=eslint(no-magic-numbers)::dist/assets/index-CyBHeG3D.js:9:54050: No magic number: 0
 
 Found 15293 warnings and 0 errors.
-Finished in 156ms on 6 files with 215 rules using 4 threads.
+Finished in 88ms on 6 files with 215 rules using 4 threads.
